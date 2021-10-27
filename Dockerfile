@@ -4,7 +4,7 @@ FROM darkXstar-xd/DevilBot:latest
 RUN git clone https://github.com/darkXstar-xd/Devil-Userbot.git /root/hellbot
 
 #working directory 
-WORKDIR /root/d3vilbot
+WORKDIR /root/DevilBot
 
 # Install requirements
 RUN pip3 install -U -r requirements.txt
